@@ -1,0 +1,344 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  font-family:sans-serif;
+}
+.header-quarter{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color:hsla(0,0%,100%,.98);
+  box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+  height:80px;
+}
+.header-section{
+  display:flex;
+  justify-content:space-around;
+}
+.header-picture{
+  background: url("https://www.docplanner.com/img/logo-default-group-en.svg?v=1");
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:50px;
+  width: 290px;
+  margin-top:15px;
+}
+.header-menu{
+  display:flex;
+  margin-top:20px;
+  width: 250px;
+  justify-content: space-between;
+}
+.link-about {
+  text-decoration:none;
+  color:#00b39b;
+  font-size: 15px;
+}
+.link-cap-dep{
+  text-decoration:none;
+  color:#ababab;
+  font-size: 15px;
+}
+.link-cap-dep:hover{
+  color:#00b39b;
+}
+.header-main-picture{
+  max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.main-title h1{
+  text-decoration:none;
+  color:#00b39b;
+  font-weight: lighter;
+  font-size: 36px;
+}
+.main-section{
+   display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.main-paragraph{
+  display:flex;
+  justify-content:space-around;
+  max-width: 995px;
+  line-height:25px;
+  color: #747474;  
+  margin-bottom: 80px;
+}
+.main-paragraph p{
+  margin-left: 15px;
+}
+.main-section-select{
+  display:flex;
+}
+.main-section-select h1{
+  font-size:26px;
+  color:white; 
+  font-weight: lighter;
+  max-width: 400px;
+  padding-left: 30px;
+}
+.main-section-select h2{
+  font-size:16px;
+  color:black;
+  font-weight: lighter;
+  color: hsla(0,0%,100%,.7);
+  padding-left: 30px;
+}
+.contain-patient{
+  flex:1;
+  background-color: #00ccb1;
+  border-radius:20px;
+  width: 550px;
+  margin-left:20px;
+  height: 385px;
+}
+.box-picture-patient{
+  background: url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:5px;
+  height:250px;
+  width: 290px;
+}
+.main-box-patient{
+  display: flex;
+}
+.list-box{
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 30px;
+  width: 35%;
+  border: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 14px;
+}
+.list:hover{
+  background-color:rgba(238, 238, 238, 1);
+}
+.contain-doctor{
+  flex:1;
+  background-color:#3d83df;
+  border-radius:20px;
+  margin-left:20px;
+  height: 385px;
+  overflow: hidden;
+}
+.box-picture-doctor{
+   background: url("https://www.docplanner.com/img/screen-saas@2x.png");
+  height:400px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:195px;
+  height:250px;
+}
+.societies{
+  display: flex;
+  margin-left:80px;
+}
+.list-societies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding-left: 70px;
+  max-width:710px;
+  padding-top: 50px;
+  fill: hsla(0,0%,67%,.7);
+}
+.lists-company:hover{
+  fill:hsla(172, 100%, 40%, 1);
+}
+.societies h1{
+  line-height:35px;
+  font-size:28px; 
+  font-weight: lighter;
+  max-width: 250px;
+  margin-left: 200px;
+  padding-top: 25px;
+}
+.platforms{
+  display: flex;
+  background-color: #e5faf8;
+  height:680px;
+  overflow: hidden;
+}
+.platforms h1{
+  margin-left: 200px;
+  margin-right: 80px;
+  padding-top: 40px;
+  color: #00b39b;
+  font-weight: lighter;
+}
+.introduction-platform p{
+  margin-left: 200px;
+  font-size: .875em;
+  max-width: 400px;
+  line-height:20px;
+  color: #747474;
+}
+.platform-img{
+  background: url("https://www.docplanner.com/img/logo.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:40px;
+  margin-top:130px;
+  height:450px;
+  width:450px;
+}
+.list-platform{
+ display: flex;
+ flex-flow: column;
+ flex-wrap: wrap;
+}
+.platform{
+  background-color: white;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 5px;
+  width: 250px;
+  height: 290px;
+  margin-top:20px;
+  padding: 20px;
+  padding-top: 50px;
+  color: #747474;
+  font-size: 13px; 
+}
+.platform-one{
+  margin-top:50px; 
+}
+.platform-two{
+  margin-top:50px;
+}
+.list-platform h3{
+  color: #00b39b;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.paragraph-statistic{
+  margin:100px; 
+  text-align: center;
+}
+.paragraph-statistic h1{
+  color: #00b39b;
+  font-weight: lighter;
+  font-size : 30px;
+}
+.paragraph-statistic p{
+max-width: 460px;
+margin-left: 400px;
+color: #747474;
+font-size: 14px;
+line-height: 25px;
+}
+.countries{
+  display: flex;
+  flex-wrap: wrap;
+  width:1300px;
+  margin-left: 90px;
+  justify-content: center; 
+  margin-bottom: 100px;
+}
+.country{
+  border: 1px solid rgba(0,0,0,.03);
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.country-box:hover{
+  box-shadow: 0px 4px 4px 6px rgb(243, 243, 243);
+}
+.warsaw-img{
+  background:url("https://www.docplanner.com/images/warsaw.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:330px;
+  height:280px;
+  border-radius: 5px;
+}
+.barcelone-img{
+background:url("https://www.docplanner.com/images/barcelona.png");
+background-repeat:no-repeat;
+background-size:cover;
+width:330px;
+height:280px;
+border-radius: 5px;
+}
+.istanbul-img{
+background:url("https://www.docplanner.com/images/istanbul.png");
+background-repeat:no-repeat;
+background-size:cover;
+width:330px;
+height:280px;
+border-radius: 5px;
+}
+.rome-img{
+background:url("https://www.docplanner.com/images/rome.png");
+background-repeat:no-repeat;
+background-size:cover;
+width:330px;
+height:280px;
+border-radius: 5px;
+}
+.mexico-img{
+background:url("https://www.docplanner.com/images/mexico-city.png");
+background-repeat:no-repeat;
+background-size:cover;
+width:330px;
+height:280px;
+border-radius: 5px;
+}
+.curitiba-img{
+background:url("https://www.docplanner.com/images/istanbul.png");
+background-repeat:no-repeat;
+background-size:cover;
+width:330px;
+height:280px;
+border-radius: 5px;
+}
+.countries a{
+  text-decoration: none;
+  
+}
+.country-description{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+
+}
+.name-country{
+  padding: 5px;
+  color: #747474;
+  font-size: 18px;
+}
+.see-more{
+  background-color: #3d83df;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width:110px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.button-see-more:hover{
+  background-color:#1662c6;
+}
+hr{
+  border: 0.5px solid #eef2f2;
+}
+.footer-section{
+  text-align: center;
+  margin-top: 40px;
+  color: #ababab;
+  font-size: 12px;
+}
+.footer-section a{
+  text-decoration: none;
+  color: #3d83df;
+}
